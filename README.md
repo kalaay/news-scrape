@@ -1,1 +1,1 @@
-# news-scrape
+# scrapper_app

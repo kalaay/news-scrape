@@ -1,0 +1,54 @@
+body {
+  /* background:black; */
+  font-family: "Lato", sans-serif;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 3;
+}
+
+#newsShowCase {
+  background: url("../images/news.jpg") bottom center / cover no-repeat;
+  min-height: 600px;
+  position: relative;
+}
+
+#newsShowCase #overlay {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+#newsShowCase #header {
+  z-index: 2;
+}
+.scrap_news_id {
+}
+
+.divClass {
+  width: 90%;
+  min-width: 500px;
+  min-height: 150px;
+  height: auto;
+  background: #fff;
+  margin: 20px auto;
+  box-shadow: 3px 3px #eee;
+  background: #ebf3fe;
+  padding: 8px;
+}
+
+@media (max-width: 768px) {
+  #newsShowCase {
+    min-height: 500px;
+  }
+  #newsShowCase h1 {
+    font-size: 4rem;
+  }
+}
